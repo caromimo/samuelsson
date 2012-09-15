@@ -1,0 +1,8 @@
+#!/usr/bin/env perl
+
+$dna = 'GCAATGG';
+print "The DNA sequence is $dna";
+$rna = $dna;
+$rna =~ tr/T/U/;
+print " and the RNA sequence is $rna\n";
+

@@ -1,0 +1,7 @@
+#!/usr/bin/env perl
+
+$dna = 'GAACTGGGT';
+print "5' $dna 3'\n";
+$compl = ($dna);
+$compl =~ tr/ATCG/TAGC/;
+print "3' $compl 5'\n";
