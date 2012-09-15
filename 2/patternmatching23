@@ -1,0 +1,4 @@
+#!/usr/bin/env perl
+
+$dna = "AACGGAATTCCCTCTC";
+if ($dna =~ /GAATTC/) {print "EcoRI match\n";}
